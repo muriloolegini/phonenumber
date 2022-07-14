@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder
 
 # Digite seu número com codigo do país e ddd #
-phone = input('Digite o telefone: ')
+phone = input('Digite o telefone no formato +551999999999: ')
 phoneNumber = phonenumbers.parse(phone)
 
 # Captura operadora #
